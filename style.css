@@ -1,0 +1,59 @@
+body{
+    font-family: 'Handlee', cursive;
+}
+.header{
+    border:6px dashed rgb(14, 169, 207);
+    width:350px;
+    margin:10px auto;
+    text-align: center;
+    padding: 18px 0 18px 0;
+}
+.header:hover{
+    background-color: rgb(117, 48, 245); color:white;
+}
+table{
+    width:100%;
+    font-size:20px;
+    border:2px solid rgb(156, 143, 143);
+    border-collapse: collapse;
+    box-shadow:0px 2px 2px 2px gray ;
+    transition:0.3sec;
+}
+table:hover{
+    box-shadow:8px 8px 8px 8px gray;
+}
+th,td{
+    border:2px solid gray;
+    text-align:center;
+    table-layout:fixed;
+}
+.selected{
+    background-color:#F36F48 ;
+    color:white;
+    font-weight:bold;
+}
+.selected:hover{
+    background-color:rgb(12, 136, 238);
+}
+#month{
+    background-color: rgb(35, 231, 51);
+    color:rgb(27, 23, 23);
+}
+.learn{
+    background-color: rgb(63, 159, 236);
+    color:white;
+}
+.routine{
+    background-color: rgb(111, 50, 252);
+    color:white;
+}
+tr:nth-child(even):hover{
+    background-color: teal;
+}
+tr:nth-child(odd):hover{
+        background-color: yellowgreen;
+}
+span{
+    font-size:5rem;
+    margin-left:630px;
+}
